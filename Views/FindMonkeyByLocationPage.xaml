@@ -31,18 +31,18 @@
             FontSize="15"
             HorizontalOptions="Center"
             Text="{Binding Name}" />
-        <Border HeightRequest="90" WidthRequest="90">
+        <Border HeightRequest="200" WidthRequest="200">
             <Border.StrokeShape>
-                <RoundRectangle CornerRadius="45" />
+                <RoundRectangle CornerRadius="100" />
             </Border.StrokeShape>
             <Image
                 Grid.Row="2"
                 Margin="15"
                 Aspect="Fill"
-                HeightRequest="90"
+                HeightRequest="200"
                 HorizontalOptions="Center"
                 Source="{Binding ImageUrl}"
-                WidthRequest="90" />
+                WidthRequest="200" />
         </Border>
 
     </VerticalStackLayout>
