@@ -53,7 +53,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\favorite.png" />
 	  <None Remove="Resources\Images\monkey.svg" />
+	  <None Remove="Resources\Images\trash.png" />
 	</ItemGroup>
 
 	<ItemGroup>
